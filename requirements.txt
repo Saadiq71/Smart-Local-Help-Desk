@@ -1,0 +1,27 @@
+
+fastapi
+uvicorn[standard]
+motor
+pymongo
+python-dotenv
+aiohttp
+apscheduler
+pydantic
+pydantic[email]
+google-genai
+python-multipart
+imagekitio
+python-dateutil
+sib_api_v3_sdk
+requests
+
+
+
+# --- REQUIRED FOR SMARTSOLVE ---
+sentence-transformers
+scikit-learn
+hdbscan
+torch
+spacy
+termcolor
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
